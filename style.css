@@ -24,6 +24,7 @@ header {
     z-index: 1000;
 }
 
+
 .logo {
     font-size: 28px;
     font-weight: bold;
@@ -50,18 +51,21 @@ header {
 .home {
     height: 100vh;
     display: flex;
-    justify-content: center;
+    justify-content: flex-end; 
     align-items: center;
-    background: url('Picture/Background_Image.png') no-repeat center right/cover;
+    background: url('\Picture/Background_Image.png') no-repeat center right/cover; 
 }
-
 .content h1 {
     font-size: 60px;
 }
 
-.highlight {
+.highlight_1 {
     color: #e6e227;
 }
+.highlight_2{
+    color: green
+}
+
 
 .btn {
     display: inline-block;
@@ -78,6 +82,7 @@ header {
 .btn:hover {
     background: #e60045;
 }
+
 
 /* About Section */
 .about {
@@ -96,7 +101,15 @@ header {
 .about-text h2 {
     font-size: 40px;
     margin-bottom: 10px;
+    color: #e6e227;
 }
+
+.about-text p {
+    font-size: 20px;
+    color: #ccc; 
+    line-height: 1.6;
+}
+
 
 /* Skills Section */
 .skills {
@@ -216,4 +229,96 @@ footer {
     padding: 20px;
     background: black;
     text-align: center;
+}
+/* About Section */
+.about-text h2 {
+    font-size: 40px;
+    margin-bottom: 10px;
+    color: #e6e227; 
+}
+
+.about-text p {
+    font-size: 20px;
+    color: #ccc; 
+    line-height: 1.6;
+}
+/* Experience Section */
+#experience {
+    padding: 100px 10%;
+    background-color: #1f1f1f;
+    color: white;
+}
+
+#experience h2 {
+    font-size: 40px;
+    color: #e6e227; 
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.timeline {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.timeline-item {
+    background: #2a2a2a; 
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.timeline-item h3 {
+    font-size: 24px;
+    color: #ff004f; 
+    margin-bottom: 10px;
+}
+
+.timeline-item p {
+    font-size: 18px;
+    color: #ccc; 
+    line-height: 1.6;
+}
+
+.timeline-item p:first-of-type {
+    font-weight: bold;
+    color: #ff004f; 
+}
+
+/* Education Section */
+#education {
+    padding: 100px 10%;
+    background-color: #1f1f1f;
+    color: white;
+}
+
+#education h2 {
+    font-size: 40px;
+    color: #e6e227; 
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+#education ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+#education li {
+    background: #2a2a2a; 
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    font-size: 18px;
+    color: #ccc; 
+}
+
+#education li:first-child {
+    font-weight: bold;
+    color: #ff004f; /
 }
