@@ -7,42 +7,102 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div id="header">
-        <div class="container">
+    <!-- Navigation -->
+    <header>
+        <div class="logo">KaiSed</div>
+        <nav>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
 
-            <nav>
-                <img src="Picture/k.png" class="Logo">
-                <ul>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Services</a></li>
-                    <li><a href="#">Portfolio</a></li>
-                    <li><a href="#">Contact</a></li>
-                </ul>
-            </nav>
-            <div class="header-text">
-                <p>........LazyBoy........</p>
-                <h1>Hi, I am <span class="kaised-text">KaiSed</span>.<br> I am From <span class="bd-text">Bangladesh</span>.</h1>
+    <!-- Home Section -->
+    <section id="home" class="home">
+        <div class="content">
+            <h1>Hi, I am <span class="highlight">KaiSed</span>.</h1>
+            <p>I am from <span class="highlight">Bangladesh</span>.</p>
+            <a href="#about" class="btn">Learn More</a>
+        </div>
+    </section>
 
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="about-img">
+            <img src="Picture/IMG-20241219-WA0001.jpg" alt="KaiSed">
+        </div>
+        <div class="about-text">
+            <h2>About Me</h2>
+            <p>My name is Md. Kaised Mollick. Bangladesh is my motherland and my home district is Jashore. 
+            I am currently studying BSc in CSE at Green University of Bangladesh.</p>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <h2>Skills</h2>
+        <div class="skill-bar">
+            <p>HTML</p>
+            <div class="bar html"></div>
+        </div>
+        <div class="skill-bar">
+            <p>CSS</p>
+            <div class="bar css"></div>
+        </div>
+        <div class="skill-bar">
+            <p>JavaScript</p>
+            <div class="bar js"></div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="experience">
+        <h2>Experience</h2>
+        <div class="timeline">
+            <div class="timeline-item">
+                <h3>Software Developer</h3>
+                <p>Company ABC - 2022-Present</p>
+                <p>Description of your experience...</p>
+            </div>
+            <div class="timeline-item">
+                <h3>Junior Developer</h3>
+                <p>Company XYZ - 2020-2022</p>
+                <p>Description of your experience...</p>
             </div>
         </div>
-    </div>
-<!.........About...........>
-    <div id="about">
-        <div class="container">
-            <div class="row">
-                <div class="about-col-1">
-                  <img src="Picture/IMG-20241219-WA0001.jpg">  
-                </div>
-                <div class="about-col-2">
-                    <h1>About Me</h1>
-                </div>
+    </section>
 
-            </div>
-           
-        </div>
-    </div>
+    <!-- Education Section -->
+    <section id="education" class="education">
+        <h2>Education</h2>
+        <ul>
+            <li>BSC in Computer Science - Green University of Bangladesh (2022)</li>
+            <li>College - Noapara Govt. College</li>
+            <li>High School-Mathurapur Purakhali Secondary School</li>
+        </ul>
+    </section>
 
-    <p>Kaised</p>
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <h2>Contact</h2>
+        <form>
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Your Email" required>
+            <textarea placeholder="Your Message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 KaiSed. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
 </body>
 </html>
