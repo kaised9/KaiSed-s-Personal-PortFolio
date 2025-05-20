@@ -138,18 +138,53 @@ header {
 }
 
 .html {
-    width: 90%;
-    background-color: #e6e227;
+    width: 80%;
+    background-color: #f39c12; /* Orange */
 }
 
 .css {
-    width: 80%;
-    background-color: #0066cc;
+    width: 60%;
+    background-color: #3498db; /* Blue */
 }
 
 .js {
-    width: 75%;
-    background-color: #f1c40f;
+    width: 50%;
+    background-color: #f1c40f; /* Yellow */
+}
+
+.php {
+    width: 30%;
+    background-color: #ddc7c5; /* Red */
+}
+
+.c {
+    width: 80%;
+    background-color: #8e44ad; /* Purple */
+}
+
+.cpp {
+    width: 50%;
+    background-color: #2ecc71; /* Green */
+}
+
+.java {
+    width: 40%;
+    background-color: #e74c3c; /* Red */
+}
+
+.python {
+    width: 60%;
+    background-color: #16a085; /* Teal */
+}
+
+.mysql {
+    width: 80%;
+    background-color: #e67e22; /* Dark Orange */
+}
+
+.django {
+    width: 50%;
+    background-color: #1abc9c; /* Light Green */
 }
 
 /* Experience Section */
@@ -227,7 +262,7 @@ form button:hover {
 /* Footer */
 footer {
     padding: 20px;
-    background: black;
+    background: rgb(85, 66, 2);
     text-align: center;
 }
 /* About Section */
@@ -321,4 +356,8 @@ footer {
 #education li:first-child {
     font-weight: bold;
     color: #ff004f; /
+}
+
+.highlight-s {
+    color: rgb(255, 0, 0); /* Change this to your desired color */
 }
