@@ -1,6 +1,6 @@
 # KaiSed's Personal Portfolio Website
 
-Welcome to **KaiSed's Personal Website** – a clean, modern, and responsive personal portfolio website built using HTML, CSS and JavaScript. This site showcases personal information, skills, education, experience, and a contact form.
+Welcome to **KaiSed's Personal Website** – a clean, modern, and responsive personal portfolio website built using HTML, CSS and JavaScript. This site showcases personal information, skills, education, experience and a contact form.
 
 ---
 
@@ -8,13 +8,22 @@ Welcome to **KaiSed's Personal Website** – a clean, modern, and responsive per
 ## 📁 Project Structure
 
 KaiSed-Portfolio/
+
 │
 ├── index.html # Main HTML file
+
 ├── style.css # CSS styling
+
 ├── script.js # JavaScript file (optional functionality)
+
 ├── Picture/ # Folder for images
+
+
 │ └── IMG-20241219-WA0001.jpg
+
+
 │ └── Background_Image.png
+
 
 
 ---
